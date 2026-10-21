@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'">
+  <title>仓鼠小窝</title>
+  <style>
+    html,body,#stage { width:100%; height:100%; margin:0; overflow:hidden; background:white; }
+    body { font-family:'Microsoft YaHei UI',sans-serif; user-select:none; }
+    ruffle-player { display:block; width:100%; height:100%; }
+    #loading { position:absolute; inset:0; display:grid; place-content:center; text-align:center; color:#8c765c; font-size:13px; line-height:2; pointer-events:none; }
+    #loading[hidden] { display:none; }
+  </style>
+  <script src="widget.js" defer></script>
+  <script src="ruffle/ruffle.js" defer></script>
+</head>
+<body>
+  <div id="stage" aria-label="仓鼠互动区域：单击空白处投喂，点击滚轮中央让它运动"></div>
+  <div id="loading">仓鼠正在搬进小窝…</div>
+</body>
+</html>

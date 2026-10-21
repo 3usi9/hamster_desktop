@@ -1,0 +1,40 @@
+Hamster Desktop Widget
+
+The original hamster animation (assets/hamster.swf) is by aBowman.
+https://www.abowman.com/gadgets/hamster/
+Original publicly provided embed: https://cdn.abowman.com/widgets/hamster/hamster.html
+The SWF has not been modified. Copyright in the original hamster artwork,
+animation and SWF remains with aBowman and any applicable rights holders.
+No ownership of, or sublicensing rights to, the original animation are claimed.
+
+Authorization status checked on 2026-10-21:
+The project maintainer has not contacted the original author and has not obtained
+separate permission for this project's offline bundling or public redistribution.
+The original gadget page displays a site-wide "Copyright 2026 aBowman" footer
+(using the copyright symbol) and provides iframe embed code. The inspected gadget,
+home and embed pages did not provide an explicit license covering redistribution
+of the SWF in this repository or in a standalone offline executable. Providing an
+embed does not by itself establish permission for those additional uses.
+
+The original SWF and packages containing it are excluded from the intended public
+source files. Do not publish them without confirming the necessary permission.
+The local build script embeds the SWF into the executable; attribution, free
+distribution, noncommercial intent or an offer to remove it do not replace any
+required permission. These notices are a record of sources and authorization
+status, not a grant of rights or a guarantee that a particular use is lawful.
+
+Ruffle self-hosted web player, nightly 2026-05-04, as used by the original page.
+https://ruffle.rs/  https://github.com/ruffle-rs/ruffle
+Ruffle is licensed under MIT OR Apache-2.0; see assets/ruffle/LICENSE.md.
+The full MIT and Apache 2.0 license texts are included in that file.
+
+Microsoft.Web.WebView2 SDK 1.0.4258.31
+https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.4258.31
+For local development, the SDK license and notices are in
+vendor/webview2/LICENSE.txt and vendor/webview2/NOTICE.txt. A local build carries
+copies as WebView2-LICENSE.txt and WebView2-NOTICE.txt inside its resource bundle.
+The installed Microsoft Edge WebView2 Evergreen Runtime is used; it is not bundled.
+
+The newly written desktop wrapper has not been assigned an independent open
+source license. Any license later chosen for that code must explicitly exclude
+the original hamster animation and preserve third-party license requirements.
