@@ -88,15 +88,14 @@ The check uses a separate browser profile and writes a JSON report and preview i
 
 ### Original Hamster Widget
 
-The hamster artwork, animation, and original `hamster.swf` are by **aBowman** and remain the property of their respective rights holders. The SWF is used without modification. This project is not affiliated with or endorsed by aBowman.
+The hamster artwork, animation, and original `hamster.swf` were created by **aBowman** and remain the property of their respective rights holders. The SWF is used without modification.
 
-As of **October 21, 2026**, the maintainer has **not contacted the original author or obtained separate permission** to redistribute the original animation or offline packages containing it. The [original page](https://www.abowman.com/gadgets/hamster/) displays a site-wide **© 2026 aBowman** notice and provides iframe embed code. No explicit license covering this project's offline redistribution was found in the pages reviewed; the embed option should not be treated as that permission.
+This project is for **personal interest only** and is not affiliated with or endorsed by aBowman.
 
-The original SWF and compiled packages containing it are excluded from the intended public repository. **Confirm the necessary permissions before publishing them, including as GitHub Releases.** Attribution or noncommercial distribution alone does not establish permission.
+If you have any concerns, please feel free to open an issue.
+
 
 ### Desktop Wrapper and Dependencies
-
-No standalone open-source license has been selected for the newly written desktop wrapper. This README does not grant rights to the original animation or replace third-party licenses.
 
 - **Ruffle:** MIT OR Apache-2.0. See [the included license](assets/ruffle/LICENSE.md).
 - **Microsoft WebView2 SDK:** governed by the `LICENSE.txt` and `NOTICE.txt` supplied with the SDK. These are included in the resource bundle when building locally.
